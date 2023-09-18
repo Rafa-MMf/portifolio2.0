@@ -352,8 +352,8 @@ body {
     width: 70%;
 }
 
-.progress-line .javascript {
-    width: 50%;
+.progress-line .canva {
+    width: 70%;
 }
 
 .progress-line .powerbi {
@@ -402,8 +402,8 @@ body {
     content: "75%";
 }
 
-.progress-line .javascript::after {
-    content: "50%";
+.progress-line .canva::after {
+    content: "70%";
 }
 
 .progress-line .powerbi::after {
@@ -552,10 +552,10 @@ p#infoPort {
 }
 
 .proj-1 img {
-    height: 330px;
-    width: 380px;
+    height: 240px;
+    width: 400px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 5%;
     box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
     margin-right: 1.7rem;
 }
@@ -567,6 +567,7 @@ p#infoPort {
 .proj-1 .proj1-details i {
     font-size: 1.5rem;
     color: var(--roxo);
+    padding-right: 10px;
 }
 
 .proj-1 .proj1-details h2 {
@@ -583,8 +584,8 @@ p#infoPort {
 .proj-1 .proj1-details button {
     background: var(--branco);
     padding: 0.5rem;
-    margin-top: 0.5rem;
-    width: 150px;
+    margin-top: 1.5rem;
+    height: 45px;
     border: none;
     border-bottom: 2px solid var(--roxo);
 }
