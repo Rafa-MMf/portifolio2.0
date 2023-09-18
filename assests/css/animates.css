@@ -1,0 +1,29 @@
+<style>
+  @keyframes movimento-cssEhtml {
+    to {
+      transform: translate(12px, 18px)
+    }
+  }
+
+  @keyframes movimento-psEai {
+    to {
+      transform: translate(-12px, 4px)
+    }
+  }
+
+  @keyframes movimento-jsEpb {
+    to {
+      transform: translate(8px, -16px)
+    }
+  }
+
+  #PBI-Logo, #PBI-Logo-2, #PBI-Logo-3, #PBI-Logo-4, #PBI-Logo-5, #PBI-Logo-6, #js, #js-2, #js-3, #js-4, #js-5, #js-6{
+    animation: movimento-jsEpb 2.5s ease-in-out infinite alternate;
+  }
+   #html, #html-2, #html-3, #html-4, #html-5, #html-6, #css, #css-2, #css-3, #css-4, #css-5, #css-6, #css-7 {
+    animation: movimento-cssEhtml 2.5s ease-in-out infinite alternate;
+  }
+   #ai, #ai-2, #ai-3, #ai-4, #ai-5, #ai-6, #ps, #ps-2, #ps-3, #ps-4, #ps-5, #ps-6 {
+    animation: movimento-psEai 2.5s ease-in-out infinite alternate;
+  }
+</style>
