@@ -23,7 +23,7 @@
 
 body {
     font-family: var(--fonte-principal);
-    background: url(/assests/img/fundo.png);
+    background: url(./assests/img/fundo.png);
     background-color: #16171b;
     overflow-x: hidden;
 }
