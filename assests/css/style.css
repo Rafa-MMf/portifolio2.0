@@ -152,7 +152,7 @@ body {
     left: 0;
     height: 115%;
     width: 100%;
-    background: url(/assests/img/fundo.png);
+    background: url('https://github.com/Rafa-MMf/portifolio2.0/blob/main/assests/img/fundo.png?raw=true');
     background-color: var(--cinza);
     border-left: 3px solid var(--roxo);
     animation: typing 3s steps(13) infinite;
@@ -564,24 +564,24 @@ p#infoPort {
     width: 32rem;
 }
 
-.proj-1 .proj1-details i {
+.proj-1 .proj1-details i, .proj-2 .proj2-details i {
     font-size: 1.5rem;
     color: var(--roxo);
     padding-right: 10px;
 }
 
-.proj-1 .proj1-details h2 {
+.proj-1 .proj1-details h2, .proj-2 .proj2-details h2 {
     font-size: 2rem;
     color: var(--roxo);
 }
 
-.proj-1 .proj1-details p {
+.proj-1 .proj1-details p, .proj-2 .proj2-details p {
     font-size: 1.3rem;
     color: var(--roxo);
     font-weight: 600;
 }
 
-.proj-1 .proj1-details button {
+.proj-1 .proj1-details button, .proj-2 .proj2-details button{
     background: var(--branco);
     padding: 0.5rem;
     margin-top: 1.5rem;
@@ -624,41 +624,16 @@ p#infoPort {
 }
 
 .proj-2 img {
-    height: 330px;
-    width: 380px;
+    height: 280px;
+    width: 400px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 5%;
     box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
     margin-right: 1.7rem;
 }
 
 .proj-2 .proj2-details {
     width: 32rem;
-}
-
-.proj-2 .proj2-details i {
-    font-size: 1.5rem;
-    color: var(--roxo);
-}
-
-.proj-2 .proj2-details h2 {
-    font-size: 2rem;
-    color: var(--roxo);
-}
-
-.proj-2 .proj2-details p {
-    font-size: 1.3rem;
-    color: var(--roxo);
-    font-weight: 600;
-}
-
-.proj-2 .proj2-details button {
-    background: var(--branco);
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-    width: 150px;
-    border: none;
-    border-bottom: 2px solid var(--roxo);
 }
 
 .proj-2 .proj2-details button a {
