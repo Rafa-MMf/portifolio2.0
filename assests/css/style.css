@@ -23,7 +23,7 @@
 
 body {
     font-family: var(--fonte-principal);
-    background: url(/assests/img/fundo.png);
+    background: url('https://github.com/Rafa-MMf/portifolio2.0/blob/main/assests/img/fundo.png?raw=true');
     background-color: #16171b;
     overflow-x: hidden;
 }
